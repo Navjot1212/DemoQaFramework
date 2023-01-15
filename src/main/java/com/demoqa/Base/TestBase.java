@@ -1,10 +1,13 @@
 package com.demoqa.Base;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
@@ -16,18 +19,26 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 
 	public static WebDriver driver;
-	Browsers DEFAULT_BROWSER = Browsers.EDGE;
+	Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
 	public static WebdriverEvents events;
 	public EventFiringWebDriver eventFiringWebDriver;
+//	public EventFiringDecorator eventFiringDecorator;
 
 	public void launchBrowser() {
+		HashMap<String, Object> preferences = new HashMap<String, Object>();
+		preferences.put("download.default_directory", System.getProperty("user.dir"));
+
 		switch (DEFAULT_BROWSER) {
 		case GOOGLE_CHROME:
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.setExperimentalOption("prefs", preferences);
+			driver = new ChromeDriver(chromeOptions);
 			break;
 		case EDGE:
 			WebDriverManager.edgedriver().setup();
+//			EdgeOptions edgeOptions = new EdgeOptions();
+//			edgeOptions.setExperimentalOption("prefs", preferences);
 			driver = new EdgeDriver();
 			break;
 		case FIREFOX:
@@ -39,7 +50,8 @@ public class TestBase {
 			System.out.println("Not a valid browser");
 			break;
 		}
-		
+
+//		eventFiringDecorator = new EventFiringDecorator(driver);
 		eventFiringWebDriver = new EventFiringWebDriver(driver);
 		events = new WebdriverEvents();
 		eventFiringWebDriver.register(events);
@@ -48,7 +60,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
-		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=common/home");
+		driver.get("https://demoqa.com/");
 	}
 
 	public void quitBrowser() {
