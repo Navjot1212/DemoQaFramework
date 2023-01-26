@@ -37,6 +37,8 @@ public class UploadsDownloadsTest extends TestBase {
 		softAssert.assertAll();
 	}
 
+	
+	//jenkins
 	@Test
 	public void verifyUserIsAbleTODownloadFile() {
 		uploadDownloadPage.clickDownloadBtn();
@@ -50,11 +52,10 @@ public class UploadsDownloadsTest extends TestBase {
 		File downloadedFile = null;
 		boolean isFilePresent = false;
 		for (File file : listOfFiles) {
-			if (file.isFile()) {
-				if (file.getName().equals("sampleFile.jpeg")) {
-					isFilePresent = true;
-					downloadedFile = new File(file.getName());
-				}
+			if (file.isFile() && file.getName().equals("sampleFile.jpeg")) {
+				isFilePresent = true;
+				downloadedFile = new File(file.getName());
+
 			}
 		}
 		softAssert.assertTrue(isFilePresent, "File Not Found");

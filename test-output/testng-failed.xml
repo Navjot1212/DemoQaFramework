@@ -5,8 +5,8 @@
     <classes>
       <class name="com.demoqa.Tests.UploadsDownloadsTest">
         <methods>
-          <include name="verifyuploadFunctionality"/>
           <include name="tearDown"/>
+          <include name="verifyUserIsAbleTODownloadFile"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.demoqa.Tests.UploadsDownloadsTest -->

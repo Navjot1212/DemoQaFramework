@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
@@ -22,7 +21,6 @@ public class TestBase {
 	Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
 	public static WebdriverEvents events;
 	public EventFiringWebDriver eventFiringWebDriver;
-//	public EventFiringDecorator eventFiringDecorator;
 
 	public void launchBrowser() {
 		HashMap<String, Object> preferences = new HashMap<String, Object>();
@@ -37,8 +35,6 @@ public class TestBase {
 			break;
 		case EDGE:
 			WebDriverManager.edgedriver().setup();
-//			EdgeOptions edgeOptions = new EdgeOptions();
-//			edgeOptions.setExperimentalOption("prefs", preferences);
 			driver = new EdgeDriver();
 			break;
 		case FIREFOX:
@@ -51,7 +47,6 @@ public class TestBase {
 			break;
 		}
 
-//		eventFiringDecorator = new EventFiringDecorator(driver);
 		eventFiringWebDriver = new EventFiringWebDriver(driver);
 		events = new WebdriverEvents();
 		eventFiringWebDriver.register(events);
