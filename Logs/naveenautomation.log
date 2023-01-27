@@ -3745,3 +3745,121 @@
 2023-01-26 11:29:34 INFO  WebdriverEvents:96 - Elelement Found By.id: downloadButton
 2023-01-26 11:29:34 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (c2edef9c7f43c24e9cf5b9a7df386c35)] -> id: downloadButton]
 2023-01-26 11:29:34 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (c2edef9c7f43c24e9cf5b9a7df386c35)] -> id: downloadButton]
+2023-01-26 20:35:54 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 20:35:56 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 20:35:56 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 20:35:56 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 20:35:56 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (386fa9e4aa8f62afc06680db65281711)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 20:35:56 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (386fa9e4aa8f62afc06680db65281711)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 20:35:56 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 20:35:56 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 20:35:56 INFO  WebdriverEvents:90 - Finding element By.id: downloadButton
+2023-01-26 20:35:56 INFO  WebdriverEvents:96 - Elelement Found By.id: downloadButton
+2023-01-26 20:35:56 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (386fa9e4aa8f62afc06680db65281711)] -> id: downloadButton]
+2023-01-26 20:35:56 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (386fa9e4aa8f62afc06680db65281711)] -> id: downloadButton]
+2023-01-26 20:36:16 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 20:36:19 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 20:36:19 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 20:36:19 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 20:36:19 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (6fcecc0d180a707b3687f4e0ca005b33)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 20:36:19 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (6fcecc0d180a707b3687f4e0ca005b33)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 20:36:19 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 20:36:19 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 20:36:19 INFO  WebdriverEvents:90 - Finding element By.id: uploadFile
+2023-01-26 20:36:19 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadFile
+2023-01-26 20:36:19 INFO  WebdriverEvents:90 - Finding element By.id: uploadedFilePath
+2023-01-26 20:36:19 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadedFilePath
+2023-01-26 20:36:19 INFO  WebdriverEvents:168 - Getting text from [[ChromeDriver: chrome on WINDOWS (6fcecc0d180a707b3687f4e0ca005b33)] -> id: uploadedFilePath]
+2023-01-26 20:36:19 INFO  WebdriverEvents:174 - Got text from [[ChromeDriver: chrome on WINDOWS (6fcecc0d180a707b3687f4e0ca005b33)] -> id: uploadedFilePath]
+2023-01-26 21:03:22 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:03:24 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:03:24 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:03:24 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:03:24 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (8cb90d975e9cbd49e8ffd2c7bfe9b091)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:03:24 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (8cb90d975e9cbd49e8ffd2c7bfe9b091)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:03:24 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:03:24 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:03:24 INFO  WebdriverEvents:90 - Finding element By.id: downloadButton
+2023-01-26 21:03:24 INFO  WebdriverEvents:96 - Elelement Found By.id: downloadButton
+2023-01-26 21:03:24 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (8cb90d975e9cbd49e8ffd2c7bfe9b091)] -> id: downloadButton]
+2023-01-26 21:03:24 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (8cb90d975e9cbd49e8ffd2c7bfe9b091)] -> id: downloadButton]
+2023-01-26 21:03:44 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:03:47 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:03:47 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:03:47 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:03:47 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (bbbe0cb68432484aba96af2a12d1222f)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:03:47 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (bbbe0cb68432484aba96af2a12d1222f)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:03:47 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:03:47 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:03:47 INFO  WebdriverEvents:90 - Finding element By.id: uploadFile
+2023-01-26 21:03:47 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadFile
+2023-01-26 21:03:47 INFO  WebdriverEvents:90 - Finding element By.id: uploadedFilePath
+2023-01-26 21:03:47 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadedFilePath
+2023-01-26 21:03:47 INFO  WebdriverEvents:168 - Getting text from [[ChromeDriver: chrome on WINDOWS (bbbe0cb68432484aba96af2a12d1222f)] -> id: uploadedFilePath]
+2023-01-26 21:03:47 INFO  WebdriverEvents:174 - Got text from [[ChromeDriver: chrome on WINDOWS (bbbe0cb68432484aba96af2a12d1222f)] -> id: uploadedFilePath]
+2023-01-26 21:10:00 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:10:02 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:10:02 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:10:02 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:10:02 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (372c2225c9f2563f79faa4230e91ec74)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:10:03 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (372c2225c9f2563f79faa4230e91ec74)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:10:03 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:10:03 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:10:03 INFO  WebdriverEvents:90 - Finding element By.id: downloadButton
+2023-01-26 21:10:03 INFO  WebdriverEvents:96 - Elelement Found By.id: downloadButton
+2023-01-26 21:10:03 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (372c2225c9f2563f79faa4230e91ec74)] -> id: downloadButton]
+2023-01-26 21:10:03 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (372c2225c9f2563f79faa4230e91ec74)] -> id: downloadButton]
+2023-01-26 21:10:23 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:10:26 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:10:26 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:10:26 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:10:26 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (e9f6992f81dff9e01d339217e8a6a047)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:10:26 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (e9f6992f81dff9e01d339217e8a6a047)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:10:26 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:10:26 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:10:26 INFO  WebdriverEvents:90 - Finding element By.id: uploadFile
+2023-01-26 21:10:26 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadFile
+2023-01-26 21:10:26 INFO  WebdriverEvents:90 - Finding element By.id: uploadedFilePath
+2023-01-26 21:10:26 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadedFilePath
+2023-01-26 21:10:26 INFO  WebdriverEvents:168 - Getting text from [[ChromeDriver: chrome on WINDOWS (e9f6992f81dff9e01d339217e8a6a047)] -> id: uploadedFilePath]
+2023-01-26 21:10:26 INFO  WebdriverEvents:174 - Got text from [[ChromeDriver: chrome on WINDOWS (e9f6992f81dff9e01d339217e8a6a047)] -> id: uploadedFilePath]
+2023-01-26 21:20:53 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:20:55 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:20:55 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:20:55 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:20:55 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (6ab78865070d4ab72fc900fa3d6df855)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:20:55 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (6ab78865070d4ab72fc900fa3d6df855)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:20:55 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:20:55 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:20:55 INFO  WebdriverEvents:90 - Finding element By.id: uploadFile
+2023-01-26 21:20:55 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadFile
+2023-01-26 21:20:55 INFO  WebdriverEvents:90 - Finding element By.id: uploadedFilePath
+2023-01-26 21:20:55 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadedFilePath
+2023-01-26 21:20:55 INFO  WebdriverEvents:168 - Getting text from [[ChromeDriver: chrome on WINDOWS (6ab78865070d4ab72fc900fa3d6df855)] -> id: uploadedFilePath]
+2023-01-26 21:20:55 INFO  WebdriverEvents:174 - Got text from [[ChromeDriver: chrome on WINDOWS (6ab78865070d4ab72fc900fa3d6df855)] -> id: uploadedFilePath]
+2023-01-26 21:21:17 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:21:20 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:21:20 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:21:20 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:21:20 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (09f19cba7dccde88fffe928c275b4f3c)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:21:20 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (09f19cba7dccde88fffe928c275b4f3c)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:21:20 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:21:20 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:21:20 INFO  WebdriverEvents:90 - Finding element By.id: downloadButton
+2023-01-26 21:21:20 INFO  WebdriverEvents:96 - Elelement Found By.id: downloadButton
+2023-01-26 21:21:20 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (09f19cba7dccde88fffe928c275b4f3c)] -> id: downloadButton]
+2023-01-26 21:21:20 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (09f19cba7dccde88fffe928c275b4f3c)] -> id: downloadButton]
+2023-01-26 21:21:40 INFO  WebdriverEvents:43 - navigating to https://demoqa.com/
+2023-01-26 21:21:42 INFO  WebdriverEvents:49 - Navigated to https://demoqa.com/
+2023-01-26 21:21:42 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:21:42 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.category-cards>div:first-of-type
+2023-01-26 21:21:42 INFO  WebdriverEvents:102 - Clicking on [[ChromeDriver: chrome on WINDOWS (a300717527603ca3a1d9d225a55486d2)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:21:43 INFO  WebdriverEvents:108 - Clicked on [[ChromeDriver: chrome on WINDOWS (a300717527603ca3a1d9d225a55486d2)] -> css selector: div.category-cards>div:first-of-type]
+2023-01-26 21:21:43 INFO  WebdriverEvents:90 - Finding element By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:21:43 INFO  WebdriverEvents:96 - Elelement Found By.cssSelector: div.accordion>div:first-of-type ul #item-7
+2023-01-26 21:21:43 INFO  WebdriverEvents:90 - Finding element By.id: uploadFile
+2023-01-26 21:21:43 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadFile
+2023-01-26 21:21:43 INFO  WebdriverEvents:90 - Finding element By.id: uploadedFilePath
+2023-01-26 21:21:43 INFO  WebdriverEvents:96 - Elelement Found By.id: uploadedFilePath
+2023-01-26 21:21:43 INFO  WebdriverEvents:168 - Getting text from [[ChromeDriver: chrome on WINDOWS (a300717527603ca3a1d9d225a55486d2)] -> id: uploadedFilePath]
+2023-01-26 21:21:43 INFO  WebdriverEvents:174 - Got text from [[ChromeDriver: chrome on WINDOWS (a300717527603ca3a1d9d225a55486d2)] -> id: uploadedFilePath]
