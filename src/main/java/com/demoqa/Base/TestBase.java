@@ -8,25 +8,34 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import com.demoqa.Browsers.Browsers;
 import com.demoqa.Listeners.WebdriverEvents;
+import com.microsoft.edge.seleniumtools.EdgeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
 	public static WebDriver driver;
-	Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
+	private Browsers browser;
 	public static WebdriverEvents events;
-	public EventFiringWebDriver eventFiringWebDriver;
-
+	private EventFiringWebDriver eventFiringWebDriver;
+	@SuppressWarnings("deprecation")
+	
 	public void launchBrowser() {
-		HashMap<String, Object> preferences = new HashMap<String, Object>();
+		HashMap<String, Object> preferences = new HashMap<>();
 		preferences.put("download.default_directory", System.getProperty("user.dir"));
 
-		switch (DEFAULT_BROWSER) {
+		String browserName = System.getProperty("browser");
+		if (browserName != null) {
+			browser = Browsers.valueOf(browserName);
+		} else {
+			browser = Browsers.FIREFOX;
+		}
+
+		switch (browser) {
 		case GOOGLE_CHROME:
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions chromeOptions = new ChromeOptions();
@@ -35,11 +44,17 @@ public class TestBase {
 			break;
 		case EDGE:
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			EdgeOptions edgeOptions = new EdgeOptions();
+			edgeOptions.setExperimentalOption("prefs", preferences);
+			driver = new EdgeDriver(edgeOptions);
 			break;
 		case FIREFOX:
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			firefoxOptions.addPreference("browser.download.folderList", 2);
+			firefoxOptions.addPreference("browser.download.dir",
+					"C:\\Users\\navjo\\eclipse-workspace\\DemoQAFramework");
+			driver = new FirefoxDriver(firefoxOptions);
 			break;
 
 		default:

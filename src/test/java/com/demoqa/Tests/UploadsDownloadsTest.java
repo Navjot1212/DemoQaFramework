@@ -37,8 +37,6 @@ public class UploadsDownloadsTest extends TestBase {
 		softAssert.assertAll();
 	}
 
-	
-	//jenkins 2
 	@Test
 	public void verifyUserIsAbleTODownloadFile() {
 		uploadDownloadPage.clickDownloadBtn();
